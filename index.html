@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Proyecto Final</title>
+    <link rel="icon" type="image/x-icon" href="cara_feliz.jpg"> <!--Tendré en cuenta registrarme en plataformas como por ej: www.fontawesome.com-->
+    <!--Open Graph data-->
+    <meta property=”og:title” content="CV Proyecto Final" />
+    <meta property=”og:type” content=”CV” />
+    <meta property=”og:url” content=”Falta ingresar la url del sitio donde subiremos el proyecto” />
+    <meta property=”og:image” content=”Falta la imagen que acompañe” /> 
+    <meta property=”og:description” content=”Este es un curriculum ficticio donde pondremos en práctica lo aprendido en programación”/>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <style>            
+        @media only screen and (max-width: 600px) {         
+          body {
+            background-color: black;
+            color: white;
+          }
+        }
+        </style>
+
+</head>
+<body>
+    <header>
+        <img src="logo_desarrollador2.png" height="100px" width="200px" alt="Logo del desarrollador web">
+    </header>
+    <section class="menusuperior">      
+        <h1>PROYECTO FINAL: CV</h1>      
+        <h2 id="objetivo"">OBJETIVO</h2>
+        <P>
+            Hola mundo, este proyecto presenta un <strong> CV ficticio </strong> que tiene como objetivo <span>  DEMOSTRAR </span> lo aprendido en la capacitación con el fin de ser evaluado y pueda ser aprobado., como nos remarco el docente a cargo <span id="consejo_docente"> ¡Tenemos que seguir estudiando y aprendiendo!</span>
+        </P>
+    </section>
+
+    <section class="menu">
+        <section class="menuizquierdo">
+           
+           <div>
+                <img id="foto_carnet" src="https://randomuser.me/api/portraits/men/73.jpg" height="175px" width="175px" alt="Foto del postulante">
+           </div>
+           <div>
+                <h2 id="datos_personales">DATOS PERSONALES</h2>
+           </div>
+                <div>
+                <li>Apellido: Baigorria</li>
+                <li>Nombre: Edmundo</li>
+                <li>Edad: 44</li>
+                <li>Hijos: 2</li>
+                <li>Ciudad: Misiones</li>
+                <li>Pais: Argentina</li>
+                <li>Celular: 23456789</li>
+                <li>e-mail: ggggggg@gmail.com</li>
+                </div>
+        </section>
+
+        <section class="menuderecha">
+           <div>
+           <h2 class="miclase">HISTORIAL ACADEMICO</h2>
+           </div>
+
+           <div>
+           <h2 class="miclase">EXPERIENCIA LABORAL</h2>
+           </div>
+        </section>
+    </section>
+    
+    <section class="menuinferior">
+        <div>
+            <h2 id="info_complementaria">INFORMACION COMPLEMENTARIA</h2>
+            <p>
+                Video del docemte donde enseña a insertar elementos multimediales.
+            </p>
+            <video class="video" controls>
+                <source src="https://cdn.profesional.ticmas.io/resources/6398e8a99423af001689e6e4/assets/XytixVdbL5PxMl8h_transcoded-KRk4RZVmoQYf1P4c-01-%20Elemento%20Video.mp4?v=1" type="video/mp4">
+                <source src="video_insertar_elementos_multimediales.ogg" type="video/ogg">    <!--Video no completo en formato ogg -->   
+               Su navegador no soporta video HTML de los formatos mp4/ogg (prueba con otro navegador).
+                 
+            </video>
+        
+            <p>
+               Les quise compartir un video de <span> YouTube </span> que demuestra que con dedicación se puede obtener muy buenos resultados. 
+            </p>
+            <iframe class="video" src="https://www.youtube.com/embed/M2pKtZefTWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <p>
+                Estilo de música preferida:
+            </p>
+            <audio controls>
+                <source src="ulises_ Bueno_mp3.mp3" type="audio/mp3">
+                <source src="ulises_ Bueno_ogg.ogg" type="audio/ogg">
+                Su navegador no soporta audio HTML de los formatos mp3/ogg (prueba con otro navegador).
+            </audio>
+            
+            <p>                
+               Si te gustó el formato del proyecto te invitamos a completar el siguiente formulario:
+            </p>
+            <form action="" method="get">
+             <label>Nombre</label>
+             <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+             <label>Apellido</label>
+             <input type="text" name="apellido" placeholder="Ingrese su apellido" required>
+             <label>Email</label>
+             <input type="email" name="e-mail" placeholder="Ingrese su email" required>
+             <input type="submit" value="Enviar">      
+             </form>
+        </div>
+    </section>    
+
+    <footer>
+        <img src="logo_desarrollador2.png" height="100px" width="200px" alt="Logo del desarrollador web">
+        <p>Autor: Grille Diego Gonzalo</p>
+        <p><a href="mailto:grillediego@yahoo.com.ar">grillediego@yahoo.com.ar</a></p>
+        <p><a href="mailto:dggrille@sanluis.edu.ar">dggrille@sanluis.edu.ar</a></p>
+
+    </footer>
+</body>
+</html> 

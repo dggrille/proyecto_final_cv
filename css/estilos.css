@@ -1,0 +1,112 @@
+* {                                   /** Lo aplicamos a todos los elementos del documento*/
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lightgreen ;
+}
+
+.menu {
+    display: flex;
+}
+
+.menusuperior {
+
+}
+
+.menuizquierdo {
+    background-color: burlywood;
+    width: 35%;
+ 
+}
+
+.menuderecha {
+    background-color: aqua;
+    width: 65%;
+  
+}
+
+.menuinferior{
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+   /** font-weight:bold; */
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    background-color: grey;
+}
+
+
+#objetivo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: maroon;
+    border: 1px solid maroon;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+
+#datos_personales {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: maroon;
+    border: 1px solid maroon;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+    width: 50%;
+    float: left;
+}
+
+#foto_carnet {
+    border-radius: 40%;
+    width: 50%;           /** Ocupara el 50% del total del contenedor*/
+}
+
+.miclase {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: maroon;
+    border: 1px solid maroon;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+
+span {
+    color:brown;
+    font-weight: bold
+}
+
+#consejo_docente {
+    color: grey;
+    font-weight:bold;
+}
+
+#info_complementaria {
+     color: white;
+     border-style:double;
+     background-color: red;
+     width: 100%;
+}
+
+.video {
+    margin-top: 10;
+    margin-right: 5;
+    margin-left: 5;
+    margin-bottom: 10;
+    width: 300px;
+    height: 200px;
+}
+
+h2,li {
+    color: blue;
+}
+
