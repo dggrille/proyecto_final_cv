@@ -31,18 +31,27 @@
         <img src="logo_desarrollador2.png" height="100px" width="200px" alt="Logo del desarrollador web">
         <div>
             <button type="button" id="boton_color">Cambiar color de fondo</button>
-        </div>   
+            <button type="button" id="boton_default">Restablecer color de fondo</button>         
+        </div>
+        <button type="button" id="boton_color2">Cambiar color de fondo, segunda opcion</button> <!--Si este codigo de linea lo ubico entre lineas cambiar color y restablecer color de fondo, NO FUNCIONA ¿Porque será?-->
+
     </header>
-    <section class="menusuperior">      
-        <h1>PROYECTO FINAL: CV</h1>      
-        <h2 id="objetivo"">OBJETIVO</h2>
-        <P>
+
+    <section class="menuSuperior">      
+        <h1>PROYECTO FINAL: CV</h1> 
+        <div>     
+        <h2 id="objetivo">OBJETIVO</h2>
+        <P id="parrafo_objetivo">
             Hola mundo, este proyecto presenta un <strong> CV ficticio </strong> que tiene como objetivo <span>  DEMOSTRAR </span> lo aprendido en la capacitación con el fin de ser evaluado y pueda ser aprobado., como nos remarco el docente a cargo <span id="consejo_docente"> ¡Tenemos que seguir estudiando y aprendiendo!</span>
         </P>
+           <div>
+           <button type="button" id="boton_ocultar">Ocultar parrafo del objetivo</button>         
+           </div>
+        </div>
     </section>
 
     <section class="menu">
-        <section class="menuizquierdo">
+        <section class="menuIzquierdo">
            
            <div>
                 <img id="foto_carnet" src="https://randomuser.me/api/portraits/men/73.jpg" height="175px" width="175px" alt="Foto del postulante">
@@ -62,18 +71,18 @@
                 </div>
         </section>
 
-        <section class="menuderecha">
+        <section class="menuDerecha">
            <div>
-           <h2 class="miclase">HISTORIAL ACADEMICO</h2>
+           <h2 class="miClase">HISTORIAL ACADEMICO</h2>
            </div>
 
            <div>
-           <h2 class="miclase">EXPERIENCIA LABORAL</h2>
+           <h2 class="miClase">EXPERIENCIA LABORAL</h2>
            </div>
         </section>
     </section>
     
-    <section class="menuinferior">
+    <section class="menuInferior">
         <div>
             <h2 id="info_complementaria">INFORMACION COMPLEMENTARIA</h2>
             <Div>
@@ -111,7 +120,7 @@
             <p id="gustar">               
                Si te gustó el formato del proyecto te invitamos a completar el siguiente formulario:
             </p>
-            <button type="button" id="boton">Hacer click aqui</button>
+            <button type="button" id="boton_gustar">Hacer click aqui</button>
             <script src="js/interactividad.js"></script>
             <form action="" method="get">
              <label>Nombre</label>
@@ -127,9 +136,13 @@
 
     </section>    
 
-    <footer>
+    <footer id="info_final" >
+      
         <img src="logo_desarrollador2.png" height="100px" width="200px" alt="Logo del desarrollador web">
-        <p>Autor: Grille Diego Gonzalo</p>      
+        <div>
+        <p id="alias">Autor: Grille Diego Gonzalo</p>    
+        <button type="button" id="boton_alias">Hacer click aqui</button>
+        </div>
         <p><a href="mailto:grillediego@yahoo.com.ar">grillediego@yahoo.com.ar</a></p>
         <p><a href="mailto:dggrille@sanluis.edu.ar">dggrille@sanluis.edu.ar</a></p>
 
