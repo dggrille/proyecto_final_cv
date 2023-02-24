@@ -73,9 +73,13 @@
     <section class="menuinferior">
         <div>
             <h2 id="info_complementaria">INFORMACION COMPLEMENTARIA</h2>
-            <p>
+            <Div>
+            <p id="agradecimiento">
                 Video del docemte donde enseña a insertar elementos multimediales.
             </p>
+            <button type="button" id="boton_gracias">Hacer click aqui</button>
+            </Div>
+
             <video class="video" controls>
                 <source src="https://cdn.profesional.ticmas.io/resources/6398e8a99423af001689e6e4/assets/XytixVdbL5PxMl8h_transcoded-KRk4RZVmoQYf1P4c-01-%20Elemento%20Video.mp4?v=1" type="video/mp4">
                 <source src="video_insertar_elementos_multimediales.ogg" type="video/ogg">    <!--Video no completo en formato ogg -->   
@@ -88,18 +92,22 @@
             </p>
             <iframe class="video" src="https://www.youtube.com/embed/M2pKtZefTWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
-            <p>
+            <p id="alias">
                 Estilo de música preferida:
             </p>
+            <button type="button" id="boton_alias">Hacer click aqui</button>
+
             <audio controls>
                 <source src="ulises_ Bueno_mp3.mp3" type="audio/mp3">
                 <source src="ulises_ Bueno_ogg.ogg" type="audio/ogg">
                 Su navegador no soporta audio HTML de los formatos mp3/ogg (prueba con otro navegador).
             </audio>
             
-            <p>                
+            <p id="gustar">               
                Si te gustó el formato del proyecto te invitamos a completar el siguiente formulario:
             </p>
+            <button type="button" id="boton">Hacer click aqui</button>
+            <script src="js/interactividad.js"></script>
             <form action="" method="get">
              <label>Nombre</label>
              <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
@@ -110,11 +118,12 @@
              <input type="submit" value="Enviar">      
              </form>
         </div>
+
     </section>    
 
     <footer>
         <img src="logo_desarrollador2.png" height="100px" width="200px" alt="Logo del desarrollador web">
-        <p>Autor: Grille Diego Gonzalo</p>
+        <p>Autor: Grille Diego Gonzalo</p>      
         <p><a href="mailto:grillediego@yahoo.com.ar">grillediego@yahoo.com.ar</a></p>
         <p><a href="mailto:dggrille@sanluis.edu.ar">dggrille@sanluis.edu.ar</a></p>
 

@@ -1,4 +1,4 @@
-* {                                   /** Lo aplicamos a todos los elementos del documento*/
+* {                                   
     margin: 10;
     padding: 0;
     box-sizing: border-box;
@@ -95,6 +95,10 @@ span {
      border-style:double;
      background-color: red;
      width: 100%;
+}
+
+#gustar {
+    color: blueviolet;
 }
 
 .video {
