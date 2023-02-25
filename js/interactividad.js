@@ -28,7 +28,7 @@ document.getElementById("boton_ocultar").addEventListener("click", function() {
 });
 
 
-/* No logre que funcione el siguiente codigo, ¿Por que será?*/
+/* No logre que funcione el siguiente codigo, ¿Por que será? Error en .addEventListener("click", function() {    */
 document.getElementById("boton_alias").addEventListener("click", function() {    
     console.log("Hola mundo desde addEventListener");
     document.getElementById("alias").innerHTML = "¡ME PUEDEN DECIR DIEGOTE (Probando eventos)";
@@ -41,6 +41,10 @@ document.getElementById("objetivo").innerHTML = "¡TRATAREMOS DE LOGRAR COMO OBJ
 document.getElementById("boton_default").addEventListener("click", function() {
     document.body.style.backgroundColor = "#90ee90";
 });
+
+
+
+
 
 
 

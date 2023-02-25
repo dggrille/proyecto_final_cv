@@ -116,6 +116,23 @@
                 Su navegador no soporta audio HTML de los formatos mp3/ogg (prueba con otro navegador).
             </audio>
             
+            <section>
+                <p>Mini calculadora que suma dos numeros</p>
+                <Form>
+                    <Label> Número 1
+                           <input type="number" id="numero1" required>
+                    </Label>
+                    <label> Número 2
+                           <input type="number" id="numero2" required>
+                    </label>
+                    <button type="button" id="sumar">Click para Realizar Suma</button>
+                </Form>    
+                <div style="display: none;">
+                    El resultado de la <strong> suma </strong> es <p id="resultado"> </p>
+                </div>
+             <script src="js/sumar.js"></script>
+            <section>
+
             <div>            
             <p id="gustar">               
                Si te gustó el formato del proyecto te invitamos a completar el siguiente formulario:
@@ -126,12 +143,13 @@
              <label>Nombre</label>
              <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
              <label>Apellido</label>
-             <input type="text" name="apellido" placeholder="Ingrese su apellido" required>
+             <input type="text" name="apellido" placeholder="Ingrese su apellido">
              <label>Email</label>
              <input type="email" name="e-mail" placeholder="Ingrese su email" required>
              <input type="submit" value="Enviar">      
              </form>
             </div>
+            
         </div>
 
     </section>    
