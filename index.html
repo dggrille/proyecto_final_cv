@@ -58,8 +58,31 @@
            </div>
            <div>
                 <h2 id="datos_personales">DATOS PERSONALES</h2>
-           </div>
+                    <div>
+                        <!--Recordatorio: Identificar error y corregirlo en lo posible el formato JSON-->
+                    <p id="demo">
+                        Datos con formato JSON (Definido por el propio Diegote)
+                    </p>
+                    <script>             
+                    const persona = '{"apellido": "Baigorria", "nombre": "Edmundo", "edad": 44, "hijos": 2, "ciudad": "Misiones", "pais": "Argentina", "celular": 23456789343, "e-mail": ggggggg@gmail.com}';
+                    const obj = JSON.parse(persona);
+                    console.log(obj);
+                    document.getElementById("demo").innerHTML =
+                     "Apellido: "+obj.apellido+
+                     "|Nombre: "+obj.nombre+
+                     "|Edad: "+obj.edad+
+                     "|Hijos: "+obj.hijos+
+                     "|Ciudad: "+obj.ciudad+
+                     "|Pais: "+obj.pais+
+                     "|Celular: "+obj.celular+
+                     "|e-mail: "+obj.e-mail;                        
+                    </script>
+                    </div>
+            </div>
                 <div>
+                    <p>
+                        Datos en Lista
+                    </p>
                 <li>Apellido: Baigorria</li>
                 <li>Nombre: Edmundo</li>
                 <li>Edad: 44</li>
@@ -73,11 +96,10 @@
 
         <section class="menuDerecha">
            <div>
-           <h2 class="miClase">HISTORIAL ACADEMICO</h2>
-           </div>
-
-           <div>
-           <h2 class="miClase">EXPERIENCIA LABORAL</h2>
+           <h2 class="miClase">HISTORIAL ACADEMICO</h2>         
+            
+           
+            <h2 class="miClase">EXPERIENCIA LABORAL</h2>
            </div>
         </section>
     </section>

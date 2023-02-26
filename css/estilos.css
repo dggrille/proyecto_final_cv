@@ -32,9 +32,6 @@ span {
     display: flex;
 }
 
-.menuSuperior {
-
-}
 
 .menuIzquierdo {
     background-color: burlywood;
@@ -48,9 +45,7 @@ span {
   
 }
 
-.menuInferior{
 
-}
 
 .miClase {
     font-family: 'Courier New', Courier, monospace;
@@ -96,7 +91,7 @@ span {
 
 #foto_carnet {
     border-radius: 40%;
-    width: 50%;           /** Ocupara el 50% del total del contenedor*/
+    width: 50%;           /** Recordatorio solo para Diegote (yo):Ocupara el 50% del total del contenedor*/
 }
 
 

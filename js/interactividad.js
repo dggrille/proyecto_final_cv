@@ -37,7 +37,7 @@ document.getElementById("boton_alias").addEventListener("click", function() {
 /* No logre que funcione el siguiente codigo, ¿Por que será?*/
 document.getElementById("objetivo").innerHTML = "¡TRATAREMOS DE LOGRAR COMO OBJETIVO! (Probando eventos) ";
 
-/* No logre que funcione el siguiente codigo para restablecer color de fondo, ¿Por que será?*/
+/* No logre que funcione el siguiente codigo para restablecer color de fondo, ¿Por que será? En documento aparte unicos SI ME FUNCIONA*/
 document.getElementById("boton_default").addEventListener("click", function() {
     document.body.style.backgroundColor = "#90ee90";
 });
