@@ -66,6 +66,9 @@ span {
     height: 200px;
 }
 
+.flexContainer {
+    display: flex;
+}
 
 #objetivo {
     font-family: 'Courier New', Courier, monospace;
