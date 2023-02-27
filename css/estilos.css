@@ -15,6 +15,7 @@ h1 {
     color: black;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 5px;
     background-color: grey;
 }
 
@@ -33,6 +34,11 @@ hr {
 
 h3 {
     margin: 5px;
+}
+
+.enlace {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .rojo {
@@ -64,7 +70,8 @@ h3 {
     font-size: 30px;
     color: maroon;
     border: 1px solid maroon;
-    margin-bottom: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     text-align: center;
     background-color: orange;
 }
