@@ -23,7 +23,19 @@ h2,li {
     color: blue;
 }
 
-span {
+hr {
+    width: 45%;
+    background-color: black;
+    border-style: none;
+    height: 5px;
+    margin-bottom: 2px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.rojo {
     color:brown;
     font-weight: bold
 }
@@ -70,6 +82,7 @@ span {
     display: flex;
 }
 
+
 #objetivo {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
@@ -85,23 +98,21 @@ span {
     font-size: 30px;
     color: maroon;
     border: 1px solid maroon;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 10px;
     text-align: center;
     background-color: orange;
-    width: 50%;
+    width: 75%;
     float: left;
 }
 
 #foto_carnet {
     border-radius: 40%;
     width: 50%;           /** Recordatorio solo para Diegote (yo):Ocupara el 50% del total del contenedor*/
+    text-align: center;
 }
 
-
-#consejo_docente {
-    color: grey;
-    font-weight:bold;
-}
 
 #info_complementaria {
      color: white;

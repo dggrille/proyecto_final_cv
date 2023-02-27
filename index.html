@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Proyecto Final </title>
+    <title>CV web - Proyecto Final </title>
     <link rel="icon" type="image/x-icon" href="cara_feliz.jpg"> <!--Tendré en cuenta registrarme en plataformas como por ej: www.fontawesome.com-->
     <!--Open Graph data-->
     <meta property=”og:title” content="CV Proyecto Final" />
@@ -44,7 +44,7 @@
         <div>     
         <h2 id="objetivo">OBJETIVO</h2>
         <P id="parrafo_objetivo">
-            Hola mundo, este proyecto presenta un <strong> CV ficticio </strong> que tiene como objetivo <span>  DEMOSTRAR </span> lo aprendido en la capacitación con el fin de ser evaluado y pueda ser aprobado., como nos remarco el docente a cargo <span id="consejo_docente"> ¡Tenemos que seguir estudiando y aprendiendo!</span>
+            Hola mundo, este proyecto presenta un <strong> CV ficticio </strong> que tiene como objetivo <span class="rojo">  DEMOSTRAR </span> lo aprendido en la capacitación con el fin de ser evaluado y pueda ser aprobado., como nos remarco el docente a cargo <span class="rojo"> ¡TENEMOS QUE SEGUIR ESTUDIANDO, APRENDIENDO Y TRABAJAR!</span>
         </P>
            <div>
            <button type="button" id="boton_ocultar">Ocultar parrafo del objetivo</button>         
@@ -58,62 +58,73 @@
            <div>
                 <img id="foto_carnet" src="https://randomuser.me/api/portraits/men/73.jpg" height="175px" width="175px" alt="Foto del postulante">
            </div>
+           
            <div>
+                <div>
                 <h2 id="datos_personales">DATOS PERSONALES</h2>
-                    <div>
-                        <!--Recordatorio: Identificar error y corregirlo en lo posible el formato JSON-->
-                    <p id="demo">
-                        Datos con formato JSON (Definido por el propio Diegote)
-                    </p>
-                    <script>             
-                    const persona = '{"apellido": "Baigorria", "nombre": "Edmundo", "edad": 44, "hijos": 2, "ciudad": "Misiones", "pais": "Argentina", "celular": 23456789343, "e-mail": ggggggg@gmail.com}';
-                    const obj = JSON.parse(persona);
-                    console.log(obj);
-                    document.getElementById("demo").innerHTML =
-                     "Apellido: "+obj.apellido+
-                     "|Nombre: "+obj.nombre+
-                     "|Edad: "+obj.edad+
-                     "|Hijos: "+obj.hijos+
-                     "|Ciudad: "+obj.ciudad+
-                     "|Pais: "+obj.pais+
-                     "|Celular: "+obj.celular+
-                     "|e-mail: "+obj.e-mail;                        
-                    </script>
-                    </div>
+                </div>
+                <div>
+                    <!--Recordatorio: Identificar error y corregirlo en lo posible el formato JSON-->
+                <h3 id="demo">
+                Datos con formato JSON 
+                </h3>
+                <script>             
+                const persona = '{"apellido": "Baigorria", "nombre": "Edmundo", "edad": 44, "hijos": 2, "ciudad": "Misiones", "pais": "Argentina", "celular": 23456789343, "e-mail": ggggggg@gmail.com}';
+                const obj = JSON.parse(persona);
+                console.log(obj);
+                document.getElementById("demo").innerHTML =
+                "Apellido: "+obj.apellido+
+                "|Nombre: "+obj.nombre+
+                "|Edad: "+obj.edad+
+                "|Hijos: "+obj.hijos+
+                "|Ciudad: "+obj.ciudad+
+                "|Pais: "+obj.pais+
+                "|Celular: "+obj.celular+
+                "|e-mail: "+obj.e-mail;                        
+                </script>
+                <hr />
+                </div>
             </div>
                 <div>
-                    <p>
+                    <h3>
                         Datos en Lista
-                    </p>
-                <li>Apellido: Baigorria</li>
-                <li>Nombre: Edmundo</li>
-                <li>Edad: 44</li>
-                <li>Hijos: 2</li>
-                    <div class=".flexContainer">
-                    <span class="material-icons">
-                        location_on
-                        </span>                   
-                        <i>Ciudad: Misiones</i>
-                    </div>
-                <li>Pais: Argentina</li>
-                    <div class=".flexContainer">
-                    <span class="material-icons">
-                        wifi_calling_3
-                        </span>
-                        <i>Celular: 23456789343</i>
-                    </div>
-
-                <li>e-mail: ggggggg@gmail.com</li>
+                    </h3>
+                        <li>Apellido: Baigorria</li>
+                        <li>Nombre: Edmundo</li>
+                        <li>Edad: 44</li>
+                        <li>Hijos: 2</li>
+                        <div class=".flexContainer">
+                            <span class="material-icons">location_on</span>                   
+                            <i>Ciudad: Misiones</i>
+                        </div>
+                        <li>Pais: Argentina</li>
+                        <div class=".flexContainer">
+                            <span class="material-icons">wifi_calling_3</span>
+                            <i>Celular: 23456789343</i>
+                        </div>
+                        <li>e-mail: ggggggg@gmail.com</li>
                 </div>
         </section>
 
         <section class="menuDerecha">
            <div>
            <h2 class="miClase">HISTORIAL ACADEMICO</h2>         
-            
-           
-            <h2 class="miClase">EXPERIENCIA LABORAL</h2>
            </div>
+            
+           <div>
+           <h2 class="miClase">EXPERIENCIA LABORAL</h2>
+           </div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <pre>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </pre>
         </section>
     </section>
     
@@ -135,7 +146,7 @@
             </video>
         
             <p>
-               Les quise compartir un video de <span> YouTube </span> que demuestra que con dedicación se puede obtener muy buenos resultados. 
+               Les quise compartir un video de <span class="rojo"> YouTube </span> que demuestra que con dedicación se puede obtener muy buenos resultados. 
             </p>
             <iframe class="video" src="https://www.youtube.com/embed/M2pKtZefTWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div>
