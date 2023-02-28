@@ -35,8 +35,8 @@
         </div>
         <div>
             <button type="button" id="boton_color">Cambiar color de fondo: opcion A</button>
-            <button type="button" id="boton_color2">Cambiar color de fondo: opcion B</button> <!--Si este codigo de linea lo ubico entre lineas cambiar color y restablecer color de fondo, NO FUNCIONA ¿Porque será?-->       
-            <button type="button" id="boton_default">Restablecer color de fondo</button>         
+            <button type="button" id="boton_color2">Cambiar color de fondo: opcion B</button>        
+            <button type="button" id="boT">Restablecer color de fondo</button>   <!--Si este codigo de linea lo ubico entre lineas cambiar color y restablecer color de fondo, NO FUNCIONA ¿Porque será?-->      
         </div>
         <div>
             <p class="borde">Visualizar capítulos en la PROPIA VENTANA
@@ -56,7 +56,7 @@
         </div>     
     </header>
 
-    <section class="menuSuperior">      
+    <section>      
         <h1>PROYECTO FINAL: CV</h1> 
         <div>     
         <h2 id="objetivo">OBJETIVO</h2>
@@ -145,28 +145,32 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <pre>
+                <pre>  <!--Utilize este elemento para demostrar que lo aprendi (ver igual en codigo como en la web)-->
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                          has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                          Has survived not only five centuries, but also the leap into electronic typesetting,
+                    Remaining essentially unchanged.
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    and more recently with desktop publishing software
+                                    like Aldus PageMaker including versions of Lorem Ipsum.
                 </pre>
         </section>
     </section>
     
-    <section class="menuInferior">
+    <section>
+           
             <div>
             <a name="info-complementaria"></a>
             <h2 id="info_complementaria">INFORMACION COMPLEMENTARIA</h2>
             </div>
-            <Div>
+        <div class="flexContainer">
+            <div>
             <p id="agradecimiento">
                 Video del docemte donde enseña a insertar elementos multimediales.
             </p>
             <button type="button" id="boton_gracias">Hacer click aqui</button>
-            </Div>
+            </div>
 
             <video class="video" controls>
                 <source src="https://cdn.profesional.ticmas.io/resources/6398e8a99423af001689e6e4/assets/XytixVdbL5PxMl8h_transcoded-KRk4RZVmoQYf1P4c-01-%20Elemento%20Video.mp4?v=1" type="video/mp4">
@@ -191,7 +195,7 @@
                 <source src="ulises_ Bueno_ogg.ogg" type="audio/ogg">
                 Su navegador no soporta audio HTML de los formatos mp3/ogg (prueba con otro navegador).
                 </audio>
-            
+        </div>    
                 <div>
                 <p>Mini calculadora que suma dos numeros</p>
                 <Form>

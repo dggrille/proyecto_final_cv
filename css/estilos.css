@@ -92,6 +92,7 @@ h3 {
     display: flex;
     margin-top: 10px;
     justify-content: center;
+    background-color: grey;
 }
 
 .borde {
@@ -139,6 +140,7 @@ h3 {
      border-style:double;
      background-color: red;
      width: 100%;
+     text-align: center;
 }
 
 #gustar {
