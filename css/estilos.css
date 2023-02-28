@@ -53,16 +53,13 @@ h3 {
 
 .menuIzquierdo {
     background-color: burlywood;
-    width: 35%;
- 
+    width: 35%; 
 }
 
 .menuDerecha {
     background-color: aqua;
     width: 65%;
-  
 }
-
 
 
 .miClase {
@@ -87,8 +84,24 @@ h3 {
 
 .flexContainer {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
+.enLinea {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.borde {
+    border: 1px solid gray;
+    margin: 14px 4px 4px 7px;
+}
+
+.margenIzquierdo {
+    margin-left: 15px;
+}
 
 #objetivo {
     font-family: 'Courier New', Courier, monospace;

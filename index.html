@@ -29,25 +29,31 @@
 
 </head>
 <body>
-    <header>
-        <img src="logo_desarrollador2.png" height="100px" width="200px" alt="Logo del desarrollador web">
+    <header class="enLinea">
         <div>
-            <button type="button" id="boton_color">Cambiar color de fondo</button>
+        <img src="logo_desarrollador2.png" height="100px" width="200px" alt="Logo del desarrollador web">
+        </div>
+        <div>
+            <button type="button" id="boton_color">Cambiar color de fondo: opcion A</button>
+            <button type="button" id="boton_color2">Cambiar color de fondo: opcion B</button> <!--Si este codigo de linea lo ubico entre lineas cambiar color y restablecer color de fondo, NO FUNCIONA ¿Porque será?-->       
             <button type="button" id="boton_default">Restablecer color de fondo</button>         
         </div>
-        <button type="button" id="boton_color2">Cambiar color de fondo, segunda opcion</button> <!--Si este codigo de linea lo ubico entre lineas cambiar color y restablecer color de fondo, NO FUNCIONA ¿Porque será?-->
-        <p>Visualizar capítulos en la PROPIA VENTANA
+        <div>
+            <p class="borde">Visualizar capítulos en la PROPIA VENTANA
             <a class="enlace" href="#datos-personales">Datos Personales</a>
             <a class="enlace" href="#historial-academico">Historial Académico</a>
             <a class="enlace" href="#experiencia-laboral">Experiencia Laboral</a>
             <a class="enlace" href="#info-complementaria">Informacion Complementaria</a>
-        </p>
-        <p>Visualizar capítulos en OTRA VENTANA
+            </p>
+        </div>    
+        <div>
+            <p class="borde">Visualizar capítulos en OTRA VENTANA
             <a class="enlace" target="_blank" href="#datos-personales">Datos Personales</a>
             <a class="enlace" target="_blank" href="#historial-academico">Historial Académico</a>
             <a class="enlace" target="_blank" href="#experiencia-laboral">Experiencia Laboral</a>
             <a class="enlace" target="_blank" href="#info-complementaria">Informacion Complementaria</a>
-        </p> 
+            </p>
+        </div>     
     </header>
 
     <section class="menuSuperior">      
@@ -105,12 +111,12 @@
                         <li>Nombre: Edmundo</li>
                         <li>Edad: 44</li>
                         <li>Hijos: 2</li>
-                        <div class=".flexContainer">
+                        <div class="flexContainer">
                             <span class="material-icons">location_on</span>                   
                             <i>Ciudad: Misiones</i>
                         </div>
                         <li>Pais: Argentina</li>
-                        <div class=".flexContainer">
+                        <div class="flexContainer">
                             <span class="material-icons">wifi_calling_3</span>
                             <i>Celular: 23456789343</i>
                         </div>
@@ -119,14 +125,21 @@
         </section>
 
         <section class="menuDerecha">
-           <div>
-            <a name="historial-academico"></a>
-           <h2 class="miClase">HISTORIAL ACADEMICO</h2>         
-           </div>
-            
-           <div>
-            <a name="Experiencia-laboral"></a>
-           <h2 class="miClase">EXPERIENCIA LABORAL</h2>
+            <div>
+                <a name="historial-academico"></a>
+                <h2 class="miClase">HISTORIAL ACADEMICO</h2>         
+            </div>
+                <div class="flexContainer"> 
+                <h3>Nivel Secundario</h3>
+                <i>Escuela comercial N°143 (Título: Perito Mercantil)</i>
+                </div>
+            <div>
+                <div class="flexContainer"> 
+                <h3>Nivel Superior</h3>
+                <i> Lorem Ipsum (Título:Lorem Ipsum)</i>
+                </div>
+                <a name="Experiencia-laboral"></a>
+                <h2 class="miClase">EXPERIENCIA LABORAL</h2>
            </div>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -134,18 +147,20 @@
                 </p>
                 <pre>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                          has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </pre>
         </section>
     </section>
     
     <section class="menuInferior">
-        <div>
+            <div>
             <a name="info-complementaria"></a>
             <h2 id="info_complementaria">INFORMACION COMPLEMENTARIA</h2>
+            </div>
             <Div>
             <p id="agradecimiento">
                 Video del docemte donde enseña a insertar elementos multimediales.
@@ -157,27 +172,27 @@
                 <source src="https://cdn.profesional.ticmas.io/resources/6398e8a99423af001689e6e4/assets/XytixVdbL5PxMl8h_transcoded-KRk4RZVmoQYf1P4c-01-%20Elemento%20Video.mp4?v=1" type="video/mp4">
                 <source src="video_insertar_elementos_multimediales.ogg" type="video/ogg">    <!--Video no completo en formato ogg -->   
                Su navegador no soporta video HTML de los formatos mp4/ogg (prueba con otro navegador).
-                 
             </video>
         
             <p>
                Les quise compartir un video de <span class="rojo"> YouTube </span> que demuestra que con dedicación se puede obtener muy buenos resultados. 
             </p>
             <iframe class="video" src="https://www.youtube.com/embed/M2pKtZefTWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div>
-            <p id="musica">
+            <section class="flexContainer">
+                <div>
+                <p id="musica">
                 Estilo de música preferida:
-            </p>
-            <button type="button" id="boton_musica">Hacer click aqui</button>
-            </div>
+                </p>
+                <button type="button" id="boton_musica">Hacer click aqui</button>
+                </div>
 
-            <audio controls>
+                <audio controls>
                 <source src="ulises_ Bueno_mp3.mp3" type="audio/mp3">
                 <source src="ulises_ Bueno_ogg.ogg" type="audio/ogg">
                 Su navegador no soporta audio HTML de los formatos mp3/ogg (prueba con otro navegador).
-            </audio>
+                </audio>
             
-            <section>
+                <div>
                 <p>Mini calculadora que suma dos numeros</p>
                 <Form>
                     <Label> Número 1
@@ -187,12 +202,14 @@
                            <input type="number" id="numero2" required>
                     </label>
                     <button type="button" id="sumar">Click para Realizar Suma</button>
-                </Form>    
+                </Form>
+                </div>
+
                 <div style="display: none;">
                     El resultado de la <strong> suma </strong> es <p id="resultado"> </p>
                 </div>
-             <script src="js/sumar.js"></script>
-            <section>
+                <script src="js/sumar.js"></script>
+            </section>
 
             <div>            
             <p id="gustar">               
@@ -209,22 +226,21 @@
              <input type="email" name="e-mail" placeholder="Ingrese su email" required>
              <input type="submit" value="Enviar">      
              </form>
-            </div>
-            
-        </div>
-
+            </div>      
     </section>    
 
-    <footer id="info_final" >
-      
+    <footer class="enLinea" >
+        <div>       
         <img src="logo_desarrollador2.png" height="100px" width="200px" alt="Logo del desarrollador web">
+        </div>
         <div>
         <p id="alias">Autor: Grille Diego Gonzalo</p>    
         <button type="button" id="boton_alias">Hacer click aqui</button>
         </div>
+        <div class="margenIzquierdo">
         <p><a href="mailto:grillediego@yahoo.com.ar">grillediego@yahoo.com.ar</a></p>
         <p><a href="mailto:dggrille@sanluis.edu.ar">dggrille@sanluis.edu.ar</a></p>
-
+        </div>
     </footer>
 </body>
 </html> 
