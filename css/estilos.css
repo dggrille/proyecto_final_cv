@@ -104,6 +104,13 @@ h3 {
     margin-left: 15px;
 }
 
+.logo {
+    width: 175px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 #objetivo {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
@@ -131,7 +138,8 @@ h3 {
 #foto_carnet {
     border-radius: 40%;
     width: 50%;           /** Recordatorio solo para Diegote (yo):Ocupara el 50% del total del contenedor*/
-    text-align: center;
+    align-content: center;
+    margin: 10px 50px 10px 100px; 
 }
 
 
